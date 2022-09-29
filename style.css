@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@500&family=Montserrat:wght@400;700&family=Noto+Sans+Mono:wght@300&family=Rubik+Distressed&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    background-color: aqua;
+}
+
+.container {
+    max-width: 700px;
+    height: 96vh;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.container h2 {
+    text-align: center;
+    font-weight: 1500;
+    font-size: xx-large;
+}
+
+.container-2 {
+    width: 45%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.container-2 label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.container input {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    border-radius: 0.5rem;
+    margin-top: 0.2rem;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 800;
+    font-size: medium;
+    text-align: center;
+    border: 1px solid aqua;
+}
+
+#check_button {
+    display: block;
+    background-color: aqua;
+    width: 150px;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    font-size: large;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+#message {
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+}
